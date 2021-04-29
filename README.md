@@ -1,4 +1,4 @@
-# Companion Twitter Clone
+# Companion Flutter Twitter Clone
 
 Companion Studios first step at looking into Flutter & Dart as X-Platform development framework!
 
@@ -9,6 +9,22 @@ Companion Studios first step at looking into Flutter & Dart as X-Platform develo
 ## Environments
 
 This project is for local running only.
+
+## Aims of the project
+
+- Fetch data from the Twitter API to display tweets
+- Be able to see tweets like they appear in Twitter
+- Be able to like or retweet a tweet.
+- Be able to create a tweet with an image
+  - The image could be from the camera
+  - The image could be from the photo library
+- Be able to geotag a tweet
+
+### Not in scope
+
+- All data should not prevail across sessions
+  - it's all local state, you quit the app, you loose anything you've done
+- Any other screens from the twitter app not listed above
 
 ## Developing
 
